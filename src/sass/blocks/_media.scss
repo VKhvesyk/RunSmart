@@ -1,0 +1,345 @@
+@media (min-width: 1025px) {
+    .footer__social {
+        a {
+            transition: 0.3s all;
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+@media (max-width: 1025px) {
+    .container {
+        max-width: 85vw;
+    }
+    .advantages__wrapper {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .title_left {
+        font-size: 32px;
+    }
+    .feedback-item {
+        width: auto;
+        &__avatar {
+            width: 20%;
+            height: 20%;
+        }
+        &__client-text {
+            width: auto;
+        }
+    }
+    .footer__social {
+        a {
+            transition: 0.3s all;
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+}
+@media (max-width: 769px) {
+    .container {
+        max-width: 85vw;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .promo__header {
+        text-align: center;
+    }
+    .promo__subheader {
+        text-align: center;
+    }
+    .promo__icons {
+        width: 90%;
+        justify-content: space-evenly;
+    }
+    .header__official {
+        display: none;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .header__logo {
+        img {
+            width: 95%;
+        }
+    }
+    .advantages__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .advantages__icon {
+        width: 300px;
+    }
+    .advantages__text {
+        margin-bottom: 50px;
+        font-size: 16px;
+        font-weight: 500;
+        span {
+            font-size: 20px;
+        }
+    }
+    .title_left {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .consultation__descr {
+        font-size: 16px;
+        line-height: 18px;
+        margin-top: 15px;
+    }
+    .catalog__tab {
+        width: 130px;
+        height: 40px;
+        font-size: 10px;
+        line-height: 38px;
+    }
+    .feedback-item {
+        flex-direction: column;
+        align-items: center;
+        &__descr {
+            margin-left: 0px;
+        }
+        &__avatar {
+            width: 130px;
+            height: 130px;
+            margin-bottom: 20px;
+        }
+        &__client-name {
+            text-align: center;
+        }
+        &__client-achievement {
+            text-align: center;
+        }
+    }
+    .footer__info {
+        padding-top: 40px;
+        width: 340px;
+        height: 220px;
+    }
+    .footer__social-item {
+        width: 40px;
+        height: 40px;
+    }
+    .icon-facebook {
+        font-size: 24px;
+    }
+    .icon-instagram {
+        font-size: 24px;
+    }
+    .icon-pinterest-p {
+        font-size: 24px; 
+    }
+    .footer__address {
+        margin-bottom: 20px;
+    }
+    .footer__phone {
+        margin-bottom: 20px;
+    }
+    .modal {
+        width: 310px;
+        min-height: 385px;
+        padding: 25px 20px 25px 20px;
+    }
+    &_mini {
+        min-height: 140px;
+        width: 290px;
+    }
+    .modal__subtitle {
+        font-size: 16px;
+    }
+    .modal__descr {
+        font-size: 12px;
+    }
+    .feed-form {
+        width: 270px;
+    }
+    .modal__close {
+        right: -35px;
+    }
+}
+@media (max-width: 426px) {
+    .container {
+        max-width: 80vw;
+    }
+    .title {
+        font-size: 26px;
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .promo__header {
+        text-align: center;
+        line-height: 44px;
+    }
+    .promo__subheader {
+        text-align: center;
+        line-height: 28px;
+    }
+    .header__official {
+        display: none;
+    }
+    .header__phone {
+        font-size: 16px;
+    }
+    .header__logo {
+        img {
+            width: 90%;
+        }
+    }
+    .promo__icons {
+        width: 350px;
+    }
+    .title_left {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    .consultation__descr {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .catalog__tab {
+        font-size: 8px;
+    }
+    .button_mini {
+        width: 110px;
+    }
+    .feedback-item {
+        &__client-text {
+            font-size: 14px;
+        }
+    }
+    .footer__info {
+        width: 340px;
+    }
+    .modal {
+        width: 290px;
+        min-height: 370px;
+        padding: 20px 20px 20px 20px;
+    }
+    &_mini {
+        min-height: 140px;
+        width: 290px;
+    }
+    .modal__subtitle {
+        font-size: 15px;
+    }
+    .modal__descr {
+        font-size: 12px;
+    }
+    .feed-form {
+        width: 250px;
+    }
+    .modal__close {
+        right: -35px;
+    }
+}
+@media (max-width: 376px) {
+    .container {
+        max-width: 80vw;
+    }
+    .promo {
+        min-height: 530px;
+        padding-bottom: 50px;
+    }
+    .promo__icons {
+        display: none;
+    }
+    .promo__header {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .promo__subheader {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .promo__icon {
+        font-size: 12px;
+    }
+    .button__header {
+        width: 130px;
+    }
+    .header__phone {
+        font-size: 13px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .advantages__text {
+        font-size: 12px;
+        span {
+            font-size: 18px;
+        }
+    }
+    .advantages__icon {
+        width: 80vw;
+    }
+    .title_left {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 22px;
+    }
+    .consultation__descr {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .consultation {
+        min-height: 600px;
+        padding: 50px 0 60px 0;
+    }
+    .catalog-item__old-price {
+        font-size: 12px;
+    }
+    .catalog-item__new-price {
+        font-size: 14px;
+    }
+    .footer__info {
+        width: 100%;
+    }
+    .footer__social-item {
+        width: 33px;
+        height: 33px;
+    }
+    .footer__address {
+        font-size: 18px;
+    }
+    .footer__phone {
+        font-size: 18px;
+    }
+    .icon-facebook {
+        font-size: 18px;
+    }
+    .icon-instagram {
+        font-size: 18px;
+    }
+    .icon-pinterest-p {
+        font-size: 18px;
+    }
+    .modal {
+        width: 250px;
+        min-height: 370px;
+        padding: 20px 20px 20px 20px;
+    }
+    .modals_mini {
+        min-height: 140px;
+        width: 290px;
+    }
+    .modal__subtitle {
+        font-size: 13px;
+    }
+    .modal__descr {
+        font-size: 12px;
+    }
+    .feed-form {
+        width: 210px;
+    }
+    .modal__close {
+        right: -35px;
+    }
+    .button_submit {
+        font-size: 12px;
+    }
+}
